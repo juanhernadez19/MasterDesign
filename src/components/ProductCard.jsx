@@ -11,7 +11,7 @@ return (
 <p>${product.price}</p>
 
 <a
-href={`https://wa.me/573228329420?text=Hola quiero información sobre ${product.name}`}
+href={`https://wa.me/573228329420?text=${encodeURIComponent(`Hola! Me interesa la *${product.name}* (Ref: #${product.id}) - Precio: $${product.price}. ¿Está disponible?`)}`}
 target="_blank"
 >
 

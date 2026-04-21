@@ -66,7 +66,7 @@ image:"/img/camisa2.png"
     id: 11, 
     name: "Camiseta Urban", 
     price: "45000", 
-    image: "/img/camisa1.png"
+    image: "/img/camisetadtf.jpg"
 }, {
     id: 12, 
     name: "Camiseta Urban", 
