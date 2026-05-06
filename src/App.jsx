@@ -1,11 +1,11 @@
 import ProductCard from "./components/ProductCard"
 import products from "./data/products"
-
+import { useState } from "react";
 
 function App() {
-
+    
 return (
-
+ 
 <div>
 
     <div className="fondo">
@@ -27,7 +27,7 @@ return (
 href={`https://wa.me/573228329420?text=Hola, me gustaria hablarte de un estilo personalizado`}
 target="_blank"
 >
-<button>Dime aqui de que trata</button>
+<button>Dime de que trata</button>
 
 </a>
 
@@ -42,3 +42,4 @@ target="_blank"
 }
 
 export default App
+  

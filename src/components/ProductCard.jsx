@@ -1,5 +1,6 @@
 function ProductCard({product}) {
 
+
 return (
 
 <div className="product">
@@ -24,5 +25,5 @@ target="_blank"
 )
 
 }
-
+ 
 export default ProductCard
